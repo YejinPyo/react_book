@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YejinPyo/react_book.git/static/css/main.3ea6227c.css",
+    "main.js": "/YejinPyo/react_book.git/static/js/main.19b28e6f.js",
+    "static/js/787.edd59a96.chunk.js": "/YejinPyo/react_book.git/static/js/787.edd59a96.chunk.js",
+    "index.html": "/YejinPyo/react_book.git/index.html",
+    "main.3ea6227c.css.map": "/YejinPyo/react_book.git/static/css/main.3ea6227c.css.map",
+    "main.19b28e6f.js.map": "/YejinPyo/react_book.git/static/js/main.19b28e6f.js.map",
+    "787.edd59a96.chunk.js.map": "/YejinPyo/react_book.git/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ea6227c.css",
+    "static/js/main.19b28e6f.js"
+  ]
+}
