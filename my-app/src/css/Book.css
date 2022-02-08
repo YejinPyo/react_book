@@ -1,0 +1,69 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+ul {list-style: none;}
+a {text-decoration: none; color: inherit;} 
+body {
+    padding: 0 10px;
+    font-family: '굴림',gulim,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#book {
+    display: inline;
+    float: left;
+    position: relative;
+    z-index: 20;
+    width: 755px;
+    height: 125px;
+    margin: 0 0 22px;
+}
+#book-left {
+    overflow: hidden;
+    position: absolute;
+    margin: 5px 17px 0 0;
+    width: 82px;
+    height: 114px;
+    background: url(https://ssl.pstatic.net/static/book/sp_thumb_all.png) no-repeat;
+}
+#book-left img {
+    margin-top: 4px;
+    vertical-align: top;
+}
+#book-right {
+    width: 654px;
+    float: right;
+    overflow: hidden;
+    margin-top: 1px;
+    padding-top: 2px;
+    line-height: 18px;
+}
+#title-area {
+    clear: both;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 3px;
+    color: #777;
+    font-size: 13px;
+}
+#author-area {
+    color: #777;
+    display: block;
+    clear: both;
+    margin: 4px 0 0;
+}
+#price-area {
+    margin: 2px 0;
+    color: #777;
+}
+#price-area>:nth-child(1) {
+    text-decoration: line-through;
+} 
+#price-area>:nth-child(2) {
+    margin: 0 1px 0 -1px;
+    color: #ff3e00;
+    font-style: normal;
+}
+#desc-area {
+    clear: both;
+    margin: 0 0 3px;
+    color: #000;
+}

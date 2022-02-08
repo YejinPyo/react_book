@@ -1,0 +1,47 @@
+@charset "utf-8";
+* {margin:0; padding:0;}
+ul {list-style: none;}
+a {text-decoration: none; color: inherit;}
+.blind {display: none;} 
+#search{
+    width:980px;
+    margin: 0 auto;
+    background-color:blue;
+}
+#wrap #container.type2 {
+    z-index: 20;
+    background: url(https://ssl.pstatic.net/static/book/image/bg_body.gif) 199px 0 repeat-y;
+}
+#container {
+    clear: both;
+    position: relative;
+    z-index: 1;
+    width: 980px;
+}
+#wrap #container.type2 #aside {
+    float: left;
+    width: 200px;
+}
+#wrap #container.type2 #aside {
+    float: left;
+    width: 200px;
+}
+#search-left {
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 549px;
+    padding: 4px 0 30px;
+    z-index: 10;
+}
+#wrap #container.type2 #content {
+    float: right;
+    width: 755px;
+}
+#search-right {
+    float: right;
+    position: relative;
+    width: 755px;
+    padding: 0 0 60px;
+    background-color: aqua;
+}
